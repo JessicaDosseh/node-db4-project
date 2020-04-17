@@ -9,7 +9,7 @@ exports.up = function(knex) {
          .unique()
          .notNullable()
       tbl.text('description')
-      tbl.float('servings'); 
+      tbl.integer('servings'); 
   
     })
 
